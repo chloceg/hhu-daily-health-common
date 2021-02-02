@@ -81,3 +81,5 @@ jobs:
 <img width="800" height="380" src="https://github.com/chloceg/hhu-daily-health-common/blob/master/pics/jx6.jpg" alt="run workflow"/>
   
 5、然后这个程序每天早上八点零一会自动排队运行，GitHub一般延迟几分钟到十几分钟不等，真正实现白嫖，一劳永逸！
+
+#### p.s. 如果有帮助的话，点一个小小的Star可好？

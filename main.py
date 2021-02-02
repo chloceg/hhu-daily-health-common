@@ -26,16 +26,5 @@ day = datestr[8:10]
 time = timestr
 
 
-# In[3]:
-
-if os.environ.get('SCKEY', '') != '':
-    SCKEY = os.environ['SCKEY']
-url='https://sc.ftqq.com/{}.send?text={},打卡成功了！'.format(SCKEY, year+'年'+month+'月'+day+'日'+timestr)
-
-
-# In[4]:
-
-
-if hhu.hhu()=='Success!':
-    requests.get(url)
+hhu.hhu()
 

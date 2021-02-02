@@ -29,7 +29,9 @@
 
 
 在编辑框填写以下代码：
+
 <img width="800" height="420" src="https://github.com/chloceg/hhu-daily-health-common/blob/master/pics/jx5.jpg" alt="在编辑框填写代码"/>
+
 
 ```
 # This is a basic workflow to help you get started with Actions
@@ -75,6 +77,7 @@ jobs:
 然后点Start commit就可以了
 
 4、手动运行一下试试，点Actions, hhu-auto-clock-in, run workflow，等待几十秒，出现绿色就代表运行成功。再去信息门户上看下打卡历史记录，应该就有了。
+
 <img width="800" height="380" src="https://github.com/chloceg/hhu-daily-health-common/blob/master/pics/jx6.jpg" alt="run workflow"/>
   
 5、然后这个程序每天早上八点零一会自动排队运行，GitHub一般延迟几分钟到十几分钟不等，真正实现白嫖，一劳永逸！

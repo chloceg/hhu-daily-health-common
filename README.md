@@ -11,6 +11,7 @@
 2、将平时填在网页上的个人信息填入info.ini文件中（因为是fork到自己的仓库里使用，所有不用担心隐私问题，如果还是不放心，可以研究一下Github Actions里的Secrets怎么用）
 <div align=center><img width="700" height="400" src="https://github.com/chloceg/hhu-daily-health-common/blob/master/pics/info.jpg" alt="这是一张info.ini的截图"/>
 <div align=center><img width="550" height="530" src="https://github.com/chloceg/hhu-daily-health-common/blob/master/pics/jx1.jpg" alt="我们打卡的网站"/>
+
 3、所有非标准库的依赖包在requirements.txt里，主程序是main.py，你可以下载到本地用python运行，但那样每天需要手动运行，所以我推荐使用Github的Actions，它可以按照你的要求创建一个系统（Windows、Linux Ubuntu等），满足适当条件时便会自动运行。
 
 

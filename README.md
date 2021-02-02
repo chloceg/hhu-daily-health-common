@@ -17,8 +17,10 @@
 
 3、所有这个程序用到的python非标准库的依赖包在requirements.txt里，主程序是main.py，你可以下载到本地用python运行，但那样每天需要手动运行，失去了自动打卡解放双手的意义。所以我推荐使用Github的Actions，它可以按照你的要求创建一个工作流（使用的系统可以是Windows、Linux Ubuntu等），满足适当条件时便会自动运行。
 
+### 创建一个工作流
 
 点击Actions：
+
 <img width="800" height="200" src="https://github.com/chloceg/hhu-daily-health-common/blob/master/pics/jx2.jpg" alt="点击Actions"/>
 
 

@@ -1,12 +1,18 @@
+<a href="https://github.com/chloceg/hhu-daily-health-common/actions"><img src="https://badgen.net/badge/test/passing/green" alt="Build Status"></a>
+
+
 # hhu-daily-health
+
 河海大学每日健康打卡
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 ## 2021年2月1日
 所有的就都写在一个程序里了，有时间再做个通用版供大家使用吧。在Actions里每天跑一下就可以了^_^ 
 
 ## 2021年2月3日
 通用版写好啦，让我们看看怎么用呢 q(≧▽≦q)
 ## 教学阶段
-1、右上角fork一份到你自己的本地仓库
+1、右上角fork一份到你自己的本地仓库(记得make private，要不然别人点进你的repositories，就能看到你填的个人信息)
 
 2、将平时填在打卡网页上的个人信息填入info.ini文件中（因为是fork到自己的仓库里使用，所有不用担心隐私问题，如果还是不放心，可以研究一下Github Actions里的Secrets怎么用）
 

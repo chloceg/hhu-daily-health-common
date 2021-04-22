@@ -2,18 +2,13 @@
 # coding: utf-8
 
 # In[1]:
-
-
-import requests
 from datetime import timezone
 from datetime import timedelta
 from datetime import datetime
 import hhu
-import os
 
 
 # In[2]:
-
 utc_time = datetime.utcnow().replace(tzinfo=timezone.utc)
 sh_tz = timezone(timedelta(hours=8),name='Asia/Shanghai')
 beijing_now = utc_time.astimezone(sh_tz)
@@ -27,4 +22,3 @@ time = timestr
 
 
 hhu.hhu()
-

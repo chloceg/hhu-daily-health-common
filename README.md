@@ -16,8 +16,11 @@
 
 2、将平时填在打卡网页上的个人信息填入info.ini文件中（因为是fork到自己的仓库里使用，所有不用担心隐私问题，如果还是不放心，可以研究一下Github Actions里的Secrets怎么用）
 
+    # info.ini
+    [personal_info]
+    学号=
+    密码=
 
-<img width="700" height="400" src="https://i.loli.net/2021/02/17/mqb3FnDLv2zKJkB.jpg" alt="这是一张info.ini的截图"/>
 <img width="550" height="530" src="https://i.loli.net/2021/02/17/B87ybZHT5MY3ucV.jpg" alt="我们打卡的网站"/>
 
 

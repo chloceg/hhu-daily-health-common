@@ -6,28 +6,18 @@ import requests
 from datetime import timezone
 from datetime import timedelta
 from datetime import datetime
-from urllib import parse
-import configparser
 import re
 import json
 
 
 # In[4]:
-def hhu():
-    config = configparser.RawConfigParser()
-    config.read('info.ini',encoding='utf-8-sig')
-    dic1=['学号','密码']
-    
-    for i in range(len(dic1)):
-        dic1[i] = config.get('personal_info', dic1[i])
-        dic1[i] = parse.quote(dic1[i])
-
+def hhu(username: str, password: str):
     headers = {
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
     }
     data = {
-        'IDToken1':'{}'.format(dic1[0]),
-        'IDToken2':'{}'.format(dic1[1]),
+        'IDToken1':'{}'.format(username),
+        'IDToken2':'{}'.format(password),
     }
     
     s = requests.session()
@@ -57,7 +47,7 @@ def hhu():
     history.pop('CLRQ') # delete key
     history['DATETIME_CYCLE'] = CstTime()
 
-    purl = 'http://form.hhu.edu.cn/pdc/formDesignApi/dataFormSave?wid=A335B048C8456F75E0538101600A6A04&userId={}'.format(dic1[0])
+    purl = 'http://form.hhu.edu.cn/pdc/formDesignApi/dataFormSave?wid=A335B048C8456F75E0538101600A6A04&userId={}'.format(username)
     pheaders = {
         "Accept": "application/json, text/javascript, */*; q=0.01","Accept-Encoding": "gzip, deflate","Accept-Language": "en-us",
         "Connection": "close",

@@ -6,6 +6,10 @@
 河海大学每日健康打卡
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+
+## 2021年7月17日
+由于爷毕业了，而且学校的信息门户版本更迭，登陆方式发生了迭代，所以目前的项目并不支持最新打卡，请后辈继续努力，写出新的打卡程序！
+
 ## 2021年2月1日
 所有的就都写在一个程序里了，有时间再做个通用版供大家使用吧。在Actions里每天跑一下就可以了^_^ 
 

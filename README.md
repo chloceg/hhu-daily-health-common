@@ -6,16 +6,22 @@
 河海大学每日健康打卡
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
-## 2021年11月24日
+## 2021年11月24日   [@Miaosful](https://github.com/Miaosful)
 似乎研究生跟本科生的打卡有点不一样，这个版本适用于研究生打卡，本科生应该修改几个参数就行了
 
-## 2021年7月17日
+***
+
+***
+
+以下之前的教程仅供参考，不适用于目前版本，过往版本可在[Commits](https://github.com/chloceg/hhu-daily-health-common/commits/master)中查询
+
+## 2021年7月17日   [@chloceg](https://github.com/chloceg)
 由于爷毕业了，而且学校的信息门户版本更迭，登陆方式发生了迭代，所以目前的项目并不支持最新打卡，请后辈继续努力，写出新的打卡程序！
 
-## 2021年2月1日
+## 2021年2月1日   [@chloceg](https://github.com/chloceg)
 所有的就都写在一个程序里了，有时间再做个通用版供大家使用吧。在Actions里每天跑一下就可以了^_^ 
 
-## 2021年2月3日
+## 2021年2月3日   [@chloceg](https://github.com/chloceg)
 通用版写好啦，让我们看看怎么用呢 q(≧▽≦q)
 ## 教学阶段
 1、右上角fork一份到你自己的本地仓库(记得make private，要不然别人点进你的repositories，就能看到你填的个人信息)
